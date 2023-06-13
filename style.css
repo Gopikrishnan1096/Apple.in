@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    
+	
+    
+}
+.navbar {
+    background-color: rgb(53, 53, 53);
+    
+    width: 100%;
+}
+ul {
+    margin: 0% 12%;
+    
+}
+.nav_links,
+ .nav_a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 0px;
+    text-align: center;
+    padding-left: 87px;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    
+}
+.nav_links_text,.nav_Store{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 7.3px 0px;
+    margin-left: 19px;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    
+}
+.nav_links_icon{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 7.3px 0px;
+    margin-left: 35px;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+}
+
+#icon{
+    font-size: 17.5px;
+}
+.body_a1{
+    padding-top: 10px;
+    position:relative;
+}
+.body_a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 15px;
+    color: rgb(55, 112, 218);
+}
+.Bank-offer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.715);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    font-weight: 400;
+}
+.show-now{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(55, 112, 218);
+}
+.first_image {
+    background-image:url(assets/hero_macbook_air_15_announce__fz5mtxnl9l6q_medium\ \(1\).jpg);
+    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+.first_text {
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    top: 55px;
+    color: rgba(0, 0, 0, 0.845);
+}
+.text-1{
+    font-size: 28px;
+    padding-top: 2px;
+    color: rgba(0, 0, 0, 0.845);
+}
+.text-2{
+    font-size: 21px;
+    padding-top: 20px;
+    color: gray;
+}
+.second_image{
+    background-image: url(assets/hero_iphone14_yellow__eun20sn4imi6_medium.jpg);
+    height: 617px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 10px;
+}
+.second_text{
+    text-align: center;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 30px;
+}
+.third_image{
+    background-image: url(assets/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.third_text{
+    text-align: center;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 35px;
+}
+.flex{
+    display: flex;
+}
+.first_left_image{
+    background-image: url(assets/promo_mac_studio_announce__do7xnc8z5mgm_large.jpg);
+    height: 550px;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.first_left_text{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 40px;
+}
+.first_right_image{
+    background-image: url(./assets/promo_ipad.jpg);
+    height: 550px;
+    width: 50%;
+    margin-right: 15px;
+    margin-left: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.first_right_text{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 40px;
+}
+.second_left_image{
+    background-image: url(assets/promo_watchos10__gcjxiaieguye_large.jpg);
+    height: 550px;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.second_left_text{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 50px;
+}
+.second_right_image{
+    background-image: url(assets/promo_ios17__eo1lt24j3wk2_large.jpg);
+    height: 550px;
+    width: 50%;
+    margin-right: 15px;
+    margin-left: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.second_right_text{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 50px;
+}
+.third_left_image{
+    background-image: url(assets/promo_macos_sonoma__bgbdtc93m5v6_large.jpg);
+    height: 550px;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.third_left_text{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 50px;
+}
+.third_right_image{
+    background-image: url(assets/promo_ipados17__fd72xru4o4qe_large.jpg);
+    height: 550px;
+    width: 50%;
+    margin-right: 15px;
+    margin-left: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.third_right_text{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.845);
+    position: relative;
+    top: 50px;
+}
+
+
+
+.slider-image{
+    list-style: none;
+    background-image: url(assets/1250x703\ \(1\).png);
+    height: 670px;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.slider-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 38%;
+    padding-left: 205px;
+    color: white;
+}
+.slider-button{
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 90px;
+    align-items: center;
+    border-color: transparent;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.845);;
+}
+.slider-button{
+    list-style: none;
+    text-align: center;
+}
+.slider-button-li{
+    text-align: center;
+    margin-left: 520px;
+}
+.dott{
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: rgb(102, 102, 102);
+}
+.dott1{
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: rgb(175, 175, 175);
+}
+
+.pause{
+    padding-left: 500px;
+    width: 100%px;
+    height: 100%;
+}
+
+.footer{
+    background-color: #f1f1f1;
+}
+.footer_cont{
+    width: 70%;
+    margin: auto;
+    font-size: 12px;
+    
+}
+ol{
+    padding: 10px 0px 10px 0px;
+}
+ol li{
+    list-style: none;
+    padding: 4px;
+    color: rgb(96, 96, 96);
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.bold{
+    font-weight: 700;
+}
+.blue{
+    color: rgb(55, 112, 218);
+}
+.space{
+    margin-left: 5%;
+}
+.edge{
+    float: right;
+}
+.last{
+    padding: 10px 0;
+    color: #000000bb;
+}
